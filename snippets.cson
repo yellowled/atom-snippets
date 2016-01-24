@@ -1,0 +1,41 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+'.text.html.basic':
+  'GoogleWebfont':
+    'prefix': 'gfont'
+    'body': '<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=${1:Open+Sans}:400italic,700italic,400,700">$0'
+
+  'Iconfont':
+    'prefix': 'icon'
+    'body': '<span class="icon-${1}" aria-hidden="true"></span><span class="${2:fallback-text}">${3}</span>$0'
+
+  'SVG-use':
+    'prefix': 'svg'
+    'body': '<svg class="icon-${1}" role="img" title="${2}" viewbox="${3:0 0 2048 2048}" width="${4:2048}" height="${5:2048}"><use xlink:href="${6:img/sprite.svg}#${7:id}"></use></svg>$0'
+
+  'lazysizes':
+    'prefix': 'lazy'
+    'body': '<img src="${1}" data-src="${2}" alt="${3}" class="lazyload">$0'
+
+  'ResponsiveImage':
+    'prefix': 'srcset'
+    'body': '<img src="${1}" srcset="${2}" ${3:sizes="${4}"} alt="${5}">$0'
