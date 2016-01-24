@@ -19,7 +19,7 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
-'.text.html.basic':
+'.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
   'GoogleWebfont':
     'prefix': 'gfont'
     'body': '<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=${1:Open+Sans}:400italic,700italic,400,700">$0'
