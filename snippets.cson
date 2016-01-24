@@ -39,3 +39,7 @@
   'ResponsiveImage':
     'prefix': 'srcset'
     'body': '<img src="${1}" srcset="${2}" ${3:sizes="${4}"} alt="${5}">$0'
+
+  'dns-prefetch':
+    'prefix': 'dns'
+    'body': '<link rel="dns-prefetch" href="${1:https://ajax.googleapis.com}">$0'
