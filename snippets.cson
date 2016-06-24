@@ -55,3 +55,11 @@
   'Paragraph':
     'prefix': 'p'
     'body': '<p>${1}</p>${0}'
+
+  'Blockquote':
+    'prefix': 'blockquote'
+    'body': """
+        <blockquote>
+            ${1}
+        </blockquote>${0}
+    """
