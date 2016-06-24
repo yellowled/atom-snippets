@@ -43,3 +43,11 @@
   'dns-prefetch':
     'prefix': 'dns'
     'body': '<link rel="dns-prefetch" href="${1:https://ajax.googleapis.com}">$0'
+
+  'Article':
+    'prefix': 'article'
+    'body': """
+      <article>
+        ${1}
+      </article>$0
+    """
