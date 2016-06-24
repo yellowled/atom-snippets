@@ -96,3 +96,7 @@
             <figcaption>${1}</figcaption>
         </figure>
     """
+
+  'Image':
+    'prefix': 'img'
+    'body': '<img src="${1}" alt="${2}">${0}'
