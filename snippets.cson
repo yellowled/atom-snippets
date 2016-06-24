@@ -79,3 +79,11 @@
             ${1}
         </address>${0}
     """
+
+  'Footer':
+    'prefix': 'footer'
+    'body': """
+        <footer>
+            ${1}
+        </footer>${0}
+    """
