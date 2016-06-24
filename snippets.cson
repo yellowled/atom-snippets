@@ -51,3 +51,7 @@
         ${1}
       </article>$0
     """
+
+  'Paragraph':
+    'prefix': 'p'
+    'body': '<p>${1}</p>${0}'
