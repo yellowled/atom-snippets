@@ -71,3 +71,11 @@
             ${1}
         </dl>${0}
     """
+
+  'Address':
+    'prefix': 'address'
+    'body': """
+        <address>
+            ${1}
+        </address>${0}
+    """
