@@ -87,3 +87,12 @@
             ${1}
         </footer>
     """
+
+  'Figure with caption':
+    'prefix': 'figure'
+    'body': """
+        <figure>
+            ${0}
+            <figcaption>${1}</figcaption>
+        </figure>
+    """
