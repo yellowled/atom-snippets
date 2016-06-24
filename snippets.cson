@@ -47,9 +47,9 @@
   'Article':
     'prefix': 'article'
     'body': """
-      <article>
-        ${1}
-      </article>$0
+        <article>
+            ${1}
+        </article>$0
     """
 
   'Paragraph':
