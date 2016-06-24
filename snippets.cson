@@ -85,5 +85,5 @@
     'body': """
         <footer>
             ${1}
-        </footer>${0}
+        </footer>
     """
