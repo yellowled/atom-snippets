@@ -64,7 +64,7 @@
         </blockquote>${0}
     """
 
-  'dl':
+  'Description list':
     'prefix': 'dl'
     'body': """
         <dl>
