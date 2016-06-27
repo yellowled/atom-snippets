@@ -52,6 +52,14 @@
         </article>
     """
 
+  'Aside':
+    'prefix': 'aside'
+    'body': """
+        <aside>
+            ${1}
+        </aside>
+    """
+
   'Paragraph':
     'prefix': 'p'
     'body': '<p>${1}</p>${0}'
