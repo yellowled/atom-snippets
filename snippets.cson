@@ -124,3 +124,7 @@
             ${0}
         </select>
     """
+
+  'Option':
+    'prefix': 'option'
+    'body': '<option value="${1}">${2}</option>${0}'
