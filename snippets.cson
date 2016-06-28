@@ -116,3 +116,11 @@
   'Textarea':
     'prefix': 'textarea'
     'body': '<textarea id="${1:name}" name="${2:name}" rows="${3:10}"></textarea>${0}'
+
+  'Select':
+    'prefix': 'select'
+    'body': """
+        <select id="${1}" name="${2}">
+            ${0}
+        </select>
+    """
