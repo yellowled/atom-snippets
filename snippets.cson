@@ -112,3 +112,7 @@
   'Input':
     'prefix': 'input'
     'body': '<input type="${1:text}" id="${2:name}" name="${3:name}" value="${4}">${0}'
+
+  'Textarea':
+    'prefix': 'textarea'
+    'body': '<textarea id="${1:name}" name="${2:name}" rows="${3:10}"></textarea>${0}'
