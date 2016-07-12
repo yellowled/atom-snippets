@@ -30,7 +30,7 @@
 
   'SVG-use':
     'prefix': 'svg'
-    'body': '<svg class="icon-${1}" role="img" title="${2}" viewbox="${3:0 0 1792 1792}" width="${4:1792}" height="${5:1792}"><use xlink:href="${6:img/sprite.svg}#${7:id}"></use></svg>$0'
+    'body': '<svg class="icon-${1}" role="img" viewbox="${2:0 0 1792 1792}" width="${3:1792}" height="${4:1792}"><title>${5}</title><use xlink:href="${6:img/sprite.svg}#${7:id}"></use></svg>$0'
 
   'lazysizes':
     'prefix': 'lazy'
