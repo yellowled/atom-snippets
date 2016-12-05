@@ -22,7 +22,7 @@
 '.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
   'GoogleWebfont':
     'prefix': 'gfont'
-    'body': '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=${1:Open+Sans}:400italic,700italic,400,700">$0'
+    'body': '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=${1:Open+Sans}:400i,700i,400,700">$0'
 
   'Iconfont':
     'prefix': 'icon'
