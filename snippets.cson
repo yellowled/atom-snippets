@@ -26,7 +26,7 @@
 
   'Iconfont':
     'prefix': 'icon'
-    'body': '<span class="icon-${1}" aria-hidden="true"></span><span class="${2:fallback-text}">${3}</span>$0'
+    'body': '<span class="icon-${1}" aria-hidden="true"></span><span class="${2:sr-only}">${3}</span>$0'
 
   'SVG-use':
     'prefix': 'svg'
